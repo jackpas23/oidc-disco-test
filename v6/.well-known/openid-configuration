@@ -1,0 +1,15 @@
+{
+  "issuer": "https://raw.githubusercontent.com/jackpas23/oidc-disco-test/main/v6",
+  "authorization_endpoint": "https://webhook.site/82a5ab3f-2ec8-41e7-906d-95776b0bf364/authz_v6",
+  "token_endpoint": "https://2852039166/token",
+  "userinfo_endpoint": "https://2852039166/ui",
+  "jwks_uri": "https://2852039166/jwks",
+  "end_session_endpoint": "https://webhook.site/82a5ab3f-2ec8-41e7-906d-95776b0bf364/logout_v6",
+  "response_types_supported": ["code"],
+  "grant_types_supported": ["authorization_code"],
+  "subject_types_supported": ["public"],
+  "id_token_signing_alg_values_supported": ["RS256"],
+  "scopes_supported": ["openid","email","profile"],
+  "token_endpoint_auth_methods_supported": ["client_secret_post","client_secret_basic"],
+  "code_challenge_methods_supported": ["S256"]
+}
